@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_10sdp"
+    android:layout_margin="@dimen/_25sdp"
+    android:padding="@dimen/_10sdp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:fontFamily="@font/acme"
+                android:text="@string/app_name"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_15sdp" />
+
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/img_icon"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_centerVertical="true"
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="Alamat Mini POM"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/tanggal"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:fontFamily="@font/acme"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/Tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/app_name"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/produk"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:fontFamily="@font/acme"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/Produk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/app_name"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/harga"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:fontFamily="@font/acme"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/Harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/app_name"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/jumlah_liter"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:fontFamily="@font/acme"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/Liter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/app_name"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+
+            <TextView
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="Jumlah Pembelian"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:fontFamily="@font/acme"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/Beli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme"
+                android:text="@string/app_name"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="Terimakasih atas kepercayaan Anda.\nHati-hati saat berkendara.\nAda keluarga yang menunggu anda dirumah "
+            android:gravity="center"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/black"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/btnCancel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@color/abu_tua"
+                android:text="Batal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:id="@+id/btnPrint"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:text="Print"
+                android:layout_weight="1"
+                android:background="@color/green_light"
+                android:layout_margin="@dimen/_5sdp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

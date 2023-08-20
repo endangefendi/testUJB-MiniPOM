@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27019528366",
+    "firebase_url": "https://shop-project-db8f7.firebaseio.com",
+    "project_id": "shop-project-db8f7",
+    "storage_bucket": "shop-project-db8f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27019528366:android:10fd2bf13ec52200cb853f",
+        "android_client_info": {
+          "package_name": "com.efendi.minipom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27019528366-q3f18bcndu3bimph7i2n0ae2727q3rtg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.efendi.minipom",
+            "certificate_hash": "a446bea10633552c489c92c7f4867b9f2fc9c8fb"
+          }
+        },
+        {
+          "client_id": "27019528366-t6rpmhqcieln5lh863nejflg67b907jh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL2545xeceOjAKiMPdwUOLc7NiDE0iFbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27019528366-t6rpmhqcieln5lh863nejflg67b907jh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

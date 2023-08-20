@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mini POM</string>
+    <string name="welcome_mini_pom">Welcome Mini POM</string>
+    <string name="todo">todo</string>
+    <string name="_0">0</string>
+    <string name="_1">:</string>
+    <string name="pembelian">Pembelian (Rp. ): </string>
+    <string name="stock">Stok</string>
+    <string name="harga">Harga</string>
+    <string name="produk">Produk</string>
+    <string name="minimum_stok">Stok menipis, segera isi ulang!</string>
+    <string name="stok_kosong">Stok habis, segera isi ulang!</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="jumlah_liter">Jumlah liter</string>
+    <string name="close">Tutup</string>
+</resources>
