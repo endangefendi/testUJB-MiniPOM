@@ -255,11 +255,19 @@ public class MainActivity extends AppCompatActivity implements
             harga = String.valueOf(hargaPerLiter);
         }
         if (stok - liters < 0){
+            spotsDialog.dismiss();
             Snackbar.make(parent_view, "Transaksi Gagal, Stok tidak mencukupi!", Snackbar.LENGTH_SHORT).show();
         }else {
             running = true;
             startFuelingAnimation( hargaBeli, harga, beli, liters + " Liter", (stok - liters));
         }
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        spotsDialog.dismiss();
     }
 
     private void popUp(String harga, String amount, String liter, String formattedDate) {
